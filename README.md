@@ -23,21 +23,30 @@ Setup Instructions:
 1. (Recommended) Create and activate a virtual environment:
 
    Linux/macOS:
+   ```bash
    $ python3 -m venv venv
    $ source venv/bin/activate
-
+   ```
    Windows:
+   ```bash
    > python -m venv venv
    > venv\Scripts\activate
-
-2. Upgrade pip (recommended):
+   ```
+   
+3. Upgrade pip (recommended):
+   ```bash
    $ python -m pip install --upgrade pip
+   ```
 
-3. Install the required dependencies:
+4. Install the required dependencies:
+   ```bash
    $ pip install -r requirements.txt
-
-4. Start training the AI agent:
+   ```
+   
+6. Start training the AI agent:
+   ```bash
    $ python agent.py
+   ```
 
    A game window will appear, and a live plot of training scores will be displayed.
    The agent will gradually improve its performance through trial and error.
